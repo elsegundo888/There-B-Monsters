@@ -14,7 +14,7 @@ def create_log(type):
 		log[c.upper()] = {}
 		atts=log[c.upper()]
 		if type.upper()=="SPECIES":
-			att_list=["Maximum Age","Maximum Health","Maximum Damage"]
+			att_list=["Maximum Age","Maximum Health","Maximum Damage","Maximum Dexterity","Maximum Magic Power","Description of Species"]
 			for item in att_list:
 				atts=addval(item,atts)
 		elif type.upper()=="CLASSES":
